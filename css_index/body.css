@@ -1,0 +1,72 @@
+
+		.body{
+			width: 1200px;
+			height: 450px;
+			background-color: #333333;
+			margin: auto;
+			background-image: url(../img/bg2.jpg);
+			background-size: 100%;
+		}
+		.alpha{
+			display: inline-block;
+			width: 960px;
+			height: 450px;
+			position: absolute;
+			left: 375px;
+		}
+		.body .left{
+			width: 230px;
+			height: 450px;
+			background-color: black;
+			opacity: 0.5;					/* 透明度0.8 */
+		}
+		.body .left li{
+			display: inline-block;
+			width: 240px;
+			height: 45px;
+			line-height: 45px;
+			text-indent: 2em;
+			background-color: darkgray;
+			font-size: 12px;
+		}
+		.body .left a{
+			text-decoration: none;
+			color: black;
+			display: block;
+			height: 45px;
+			width: 240px;
+		}
+		.body .left a:hover{
+			background-color: #000000;
+			color: #FFFFFF;
+		}
+		.nav_right{
+			position: fixed;
+			top: 400px;
+			right: 0;
+		}
+		.nav_right a{
+			text-decoration: none;
+			color: black;
+			display: block;
+			width: 75px;
+			height: 50px;
+			border: 1px solid #D3D3D3;
+		}
+		.nav_right a:hover{
+			background-color: orangered;
+			color: #FFFFFF;
+			border:0;
+			transition-duration: 300ms;			/* 过渡持续时间 */
+		}
+		.nav_right li{
+			display: block;
+			text-align: center;
+			line-height: 50px;
+			width: 75px;
+			height: 50px;
+			list-style: none;
+		}
+		
+		
+		

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Alpha-FAKE</title>
+		<link href="css_alpha/top.css" type="text/css" rel="stylesheet">
+		<link href="css_alpha/parts.css" type="text/css" rel="stylesheet">
+		<link href="css_alpha/foot.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="js/onclick.js"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="top">
+			<!-- 头部导航栏 -->
+			<div class="nav_1">
+				<ul>
+					<li><a href="#">小米商城</a></li>
+					<li><a href="#">MIUI</a></li>
+					<li><a href="#">云服务</a></li>
+					<li><a href="#">金融</a></li>
+					<li><a href="#">有品</a></li>
+					<li><a href="#">小爱开放平台</a></li>
+					<li><a href="#">企业团购</a></li>
+					<li><a href="#">资质证照</a></li>
+					<li><a href="#">协议规则</a></li>
+					<li><a href="#">下载app</a></li>
+					<li><a href="#">Select Location</a></li>
+					<li id="car" onmouseover="CarOver()" onmouseout="CarOut()">购物车(0)</li>
+					<li class="nav_1_right"><a href="login.html">登录</a></li>
+					<li class="nav_1_right"><a href="register.html">注册</a></li>
+					<li class="nav_1_right"><a href="#">消息通知</a></li>
+				</ul>
+				<!-- 隐藏的购物车 -->
+				<div id="incar" onmouseover="CarOver()" onmouseout="CarOut()">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
+			</div>
+		</div>
+		<!-- 隐藏的图片 -->
+		<img src="img/wechat.jpg" id="wechat" onmouseover="PicOver()" onmouseout="PicOut()">
+		<!-- 右边的固定导航栏 -->
+		<div class="nav_right">
+			<ul>
+				<li><a href="#">回到顶部</a></li>
+				<li><a href="#">售后服务</a></li>
+				<li><a href="#" onmouseover="PicOver()" onmouseout="PicOut()" id="pop">人工客服</a></li>
+				<li><a href="#">购物车</a></li>
+			</ul>
+		</div>
+		<div class="nav_2">
+			<!-- logo -->
+			<div class="nav_2_img">
+				<a href="index.html"></a>
+			</div>
+			<!-- logo右边的导航栏 -->
+			<ul>
+				<li><a href="#">小米手机</a></li>
+				<li><a href="#">Redmi红米</a></li>
+				<li><a href="#">电视</a></li>
+				<li><a href="#">笔记本</a></li>
+				<li><a href="#">家电</a></li>
+				<li><a href="#">路由器</a></li>
+				<li><a href="#">智能硬件</a></li>
+				<li><a href="#">服务</a></li>
+				<li><a href="#">社区</a></li>
+				<li class="nav_2_right">
+					<!-- 导航栏右边的表单 -->
+					<form action="#" method="get">
+						<input type="text" class="text_1"><input type="image" src="img/th.jpg" class="btn_1" onclick="funA()">
+					</form>
+				</li>
+			</ul>
+		</div>
+		<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+		<div class="nav_3">
+			<ul>
+				<li id="wid"><p>小米MIX Alpha&nbsp;&nbsp;</p>|</li>
+				<li><a href="#"> 小米9 Pro 5G </a> | </li>
+				<li><a href="#">小米Mix 3</a></li>
+				<li id="wid" class="right"> &nbsp;&nbsp;<button onclick="funA()">立即购买</button> </li>
+				<li class="right">&nbsp;&nbsp;<a href="#"> 用户评价  </a>&nbsp;&nbsp;</li>
+				<li class="right">&nbsp;&nbsp;<a href="#"> <font color="#FF6700">参数</font>  </a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li class="right">&nbsp;&nbsp;<a href="#"> F码通道  </a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li class="right"><a href="#"> 概述  </a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+			</ul>
+		</div>
+		<div class="part1"></div>
+		
+		<div class="part2">
+			<div class="none"></div>
+			<div class="row">
+				<h2>屏幕</h2>
+				<h1>7.92 英寸 柔性 OLED 屏幕</h1>
+				<p class="px18">分辨率 2088 x 2250</p>	
+			</div>
+		</div>
+		<hr>
+		<div class="part3">
+			<div class="none"></div>
+			<div class="row">
+				<h2>相机</h2>
+				<div class="inrow">
+					<h1>1亿像素超旗舰三摄</h1>
+					<p class="px18">1 亿 800 万超清主摄<br>
+									三星HMX，1/1.33’感光尺寸，0.8μm，四合一 1.6μm 大像素，f/1.69 大光圈，7P 镜头<br>
+									OIS 四轴光学防抖，激光自动对焦
+					</p>
+					<p class="px18">1200 万超级人像镜头, 2 倍光学变焦<br>
+									三星S5K2L7，1.4μm，1/ 2.55’感光尺寸，f/2 光圈，6P 镜头，Dual PD 相位对焦，激光混合对焦
+					</p>
+					<p class="px18">2000 万超广角+微距镜头<br>
+									SONY IMX350，20MP，1.0μm，1/2.8’感光尺寸，FOV 117°， f/2.2 光圈，6P 镜头<br>
+									激光自动对焦，1.5cm 极限微距拍摄
+					</p>				
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part4">
+			<div class="none"></div>
+			<div class="row">
+				<h2>操作系统</h2>
+				<div class="inrow">
+					<h1>MIUI Alpha*</h1>
+					<img src="img_alpha/specs-2%20(1).jpg">
+					<table>
+						<tr>
+							<td>正面屏幕：</td>
+							<td>双侧压感屏：</td>
+							<td>背面屏幕：</td>
+						</tr>
+						<tr>
+							<td>纯净的内容信息，没有任何干扰</td>
+							<td>收纳所有状态信息</td>
+							<td>集合轻应用，判断场景提供智能提醒</td>
+						</tr>
+					</table>
+					<p class="px15">* 基于 MIUI 专门定制的 Alpha 概念系统。</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part5">
+			<div class="none"></div>
+			<div class="row">
+				<h2>外观材质</h2>
+				<div class="inrow">
+					<p class="px18">高度：154.38mm</p><br>
+					<p class="px18">宽度：72.3mm</p><br>
+					<p class="px18">厚度：10.4mm</p><br>
+					<p class="px18">重量：241g*</p>
+					<p class="px15">*此数据为⼩米实验室测试数据，依据行业内测量方式不同，实际结果可能略有差异。</p>
+					<img src="img_alpha/specs-3.jpg">
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part6">
+			<div class="none"></div>
+			<div class="row">
+				<h2>性能配置</h2>
+				<div class="inrow">
+					<h1>骁龙855Plus 旗舰平台
+						<br>12GB + 512GB
+					</h1>
+					<p class="px18">LPDDR4X（2133MHz）四通道大内存 丨 UFS3.0 疾速闪存</p>
+					<p class="px15">*实际可用容量会由于诸多因素而减少并有所差异：由于操作系统运行占据了部分内存（RAM），实际可用空间小于<br>
+						标识内存容量；由于安装操作系统和预装的程序占据了部分闪存（ROM），实际可用存储空间小于标识闪存容量。
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part7">
+			<div class="none"></div>
+			<div class="row">
+				<h2>传感器</h2>
+				<div class="inrow">
+					<p class="px18">超声波距离传感器 | 屏下环境光传感器 | 霍尔传感器 | 摄像头激光对焦传感器 | 加速度传感器 | 陀螺仪 |<br>
+					电子罗盘 | 气压计 | 线性马达 | 温度传感器 | 湿度传感器 | TVOC气体传感器 | Flicker传感器 | 压力感应<br>
+					传感器 | 指纹识别传感器
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part8">
+			<div class="none"></div>
+			<div class="row">
+				<h2>充电与电池</h2>
+				<div class="inrow">
+					<p class="px18">4050mAh（typ）/ 3950mAh（min）<br><br>
+							40W 有线闪充<br><br>
+							内置纳米硅基锂离子电池，不可拆卸</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part9">
+			<div class="none"></div>
+			<div class="row">
+				<h2>网络与制式</h2>
+				<div class="inrow">
+					
+					<h1>全网通 6.0</h1>
+					<br><br>
+					<b><p class="px18">支持双卡不限运营商，主卡均可采用5G，副卡4G驻网*①</p></b>
+					<br>
+					
+					<p class="px18">支持双Nano-SIM 卡槽</p>
+					<p class="px18">支持移动/联通 5G / 4G+ / 4G / 3G / 2G，电信 5G / 4G*②</p>
+					<p class="px18">支持双卡VoLTE高清语音*③</p>
+					<p class="px18">支持天线智能切换</p>
+					<br><br>
+					
+					<p class="px15">* 注1：是否支持5G取决于当地运营商网络；当使用两张电信卡时，副卡只能注册电信VoLTE网络，如果副卡或者当地网络不支持电信</p>
+					<p class="px15">VoLTE业务则无法使用；</p>
+					<p class="px15">* 注2：不支持CDMA，EVDO制式；</p>
+					<p class="px15">* 注3：受限于运营商网络和业务部署，当前支持移动，中国电信的VoLTE业务，后续可通过软件升级支持其他运营商VoLTE需求</p>
+					<br><br>
+					
+					<h2>支持频段</h2><br><br>
+					<p class="px18">5G NR：移动 n41、n79，联通 n78，电信 n78</p>
+					<p class="px18">4G：FDD-LTE ：B1 / B2 / B3 / B4 / B5 / B7 / B8</p>
+					<p class="px18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TDD-LTE ：B34 / B38 / B39 / B40 / B41</p>
+					<p class="px18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：LTE B41(2496-2690 MHz)</p>
+					<p class="px18">3G：TDSCDMA：B34 / B39</p>
+					<p class="px18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WCDMA: B1 / B2 / B5 / B8</p>
+					<p class="px18">2G：GSM：B2 / B3 / B5 / B8</p>
+					
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part10">
+			<div class="none"></div>
+			<div class="row">
+				<h2>无线连接</h2>
+				<div class="inrow">
+					<p class="px18">WLAN 协议： 802.11 a / b / g / n / ac</p>
+					<p class="px18">WLAN 频率： 2.4G WiFi | 5G WiFi</p>
+					<p class="px18">支持 WiFi 2x2 MIMO技术，支持MU-MIMO，WiFi Direct，WiFi Display，支持WPA3</p>
+					<p class="px18">蓝牙：Bluetooth 5.0 无线技术，高通 TrueWireless™Stereo Plus</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="part11">
+			<div class="none"></div>
+			<div class="row">
+				<p class="px15">说明：</p>
+				<span></span>
+				<p class="px15">*内存与容量方面，实际可用容量会由于诸多因素而减少并有所差异：由于操作系统运行占据了部分内存（RAM），实际可用空间小于标识内存容量；由于安装操作系统和预装的程序占据部分闪存（ROM），实际可用存储空间小于标识闪存容量。</p>
+				<span></span>
+				<p class="px15">*充电方面，速度、时长等数据，均为我司实验室数据，实际情况会因测试软件版本、具体测试环境、具体版本不同而略有差异。最终以实际使用时长为准。</p>
+				<span></span>
+				<p class="px15">*小米MIX Alpha 仅支持NSA(非独立组网）模式下的5G网络，不支持SA（独立组网）模式下的5G网络，具体网络部署取决于各运营商的网络部署情况而定。</p>
+				<span></span>
+				<p class="px15">*网络与制式方面，是否支持 4G 取决于当地运营商网络; 当使用两张电信卡时，副卡只能注册电信 VoLTE 网络，如果副卡或者当地网络不支持电信 VoLTE 业务则无法使用； 受限于运营商网络和业务部署，当前支持中国移动/中国电信的 VoLTE 业务，后续可通过软件升级支持其他运营商 VoLTE 需求。</p>
+				<span></span>
+				<p class="px15">*本网站提供的屏幕图和产品说明展示图， 均为参考示意图，实际情况以实物为准。</p>
+				<span></span>
+				<p class="px15">*产品图片以及型号、数据、功能、性能、规格参数、用户界面和其他产品信息等仅供参考，小米有可能对上述内容进行改进，具体信息请参照产品实物、产品说明书。除非经特殊说明，本网站中所涉及的数据均为小米内部测试结果，涉及的对比均为与小米产品相比较。</p>
+				<span></span>
+				<p class="px15">*页面中所对比的一般手机，均为小米自有手机。产品站非特别指出，均为我司实验室数据、设计技术参数及供应商提供数据，全站数据实际情况会因测试软件版本、具体测试环境、具体版本不同，而略有差异。全站所展示结构图片，均为功能示意图，并非绝对实际结构，最终以实物为准。</p>
+			</div>
+		</div>
+		<hr>
+		<div class="foot">
+			<div class="row">
+				<img src="img/wechat.jpg">
+				<p>扫码关注【<span onclick="funA()">小米商城</span>】公众号</p>
+			</div>
+		</div>
+		<div class="foot_nav">
+			<ul>
+				<li><a href="#">👌预约维修服务</a></li>丨
+				<li><a href="#">🛄7天无理由退货</a></li>丨
+				<li><a href="#">✅15天免费换货</a></li>丨
+				<li><a href="#">🚛满150元包邮</a></li>丨
+				<li><a href="#">👩520余家售后网点</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

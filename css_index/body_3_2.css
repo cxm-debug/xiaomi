@@ -1,0 +1,46 @@
+		.body_3_2{
+			width:1200px;
+			height: 650px;
+			margin: auto;
+		}
+		.body_3_2 p{
+			font-size: 25px;
+			font-family: 微软雅黑;
+			margin-left: 9px;
+		}
+		.body_3_2 li{
+			display: inline-block;
+			float: right;
+			width: 235px;
+			height: 300px;
+			background-color: #FFF;
+			margin-right: 5px;
+			text-align: center;
+		}
+		.body_3_2 img{
+			display: inline-block;
+		}
+		.body_3_2 .pic{
+			float: left;	
+		}
+		.pic:hover{
+			cursor: pointer;
+			box-shadow: 5px 5px 5px #D8D8D8;
+		}
+		.body_3_2 ul img{
+			width: 160px;
+			height: 160px;
+			position: relative;
+			top: 25px;
+		}
+		.body_3_2 #p2{
+			color
+		}
+		.ul2 li{
+			margin-top: 14px;
+		}
+		.body_3_2 li:hover{
+			box-shadow: 5px 5px 5px #D8D8D8;
+			cursor: pointer;				
+			transition-duration: 300ms;			
+		}

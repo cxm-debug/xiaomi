@@ -1,0 +1,83 @@
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #F2F2F2;
+		}
+		.body{
+			width: 850px;
+			height: 550px;
+			margin: auto;
+			margin-top: 60px;
+			background-color: #FFFFFF;
+		}
+		.body a{
+			display: block;
+			height: 55px;
+			width: 55px;
+			background-image: url(../img/1.png);
+			margin: auto;
+		}
+		a:hover{
+			background-image: url(../img/2.jpg);
+			transition-duration: 300ms;
+		}
+		.span_1{
+			margin-left: 330px;
+			font-size: 30px;
+		}
+		.body_2{
+			width: 300px;
+			margin: auto;
+			margin-top: 30px;
+		}
+		.user{
+			width: 300px;
+			height: 35px;
+			text-indent: 1em;
+			outline: none;
+		}
+		.btn_1{
+			width: 305px;
+			height: 35px;
+			margin-top: 15px;
+			color: #fff;
+			background-color: #FF6700; 
+			border: 0;
+			outline: none;
+		}
+		.send{
+			width: 300px;
+			height: 35px;
+			text-indent: 1em;
+			margin-top: 15px;
+			outline: none;
+		}
+		.btn_2{
+			width: 305px;
+			height: 35px;
+			margin-top: 15px;
+			color: #fff;
+			background-color: #FF6700; 
+			border: 0;
+			outline: none;
+		}
+		.btn_1:hover{
+			background-color: #FAAC58;
+			cursor: pointer;
+		}
+		.btn_2:hover{
+			background-color: #FAAC58;
+			cursor: pointer;
+		}
+		p{
+			font-size: 14px;
+			color: darkgray;
+			text-align: center;
+			margin-top: 80px;
+		}
+		strong{
+			color: #000000;
+		}
+		p:hover{
+			cursor: pointer;
+		}

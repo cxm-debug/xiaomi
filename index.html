@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米商城-FAKE</title>
+	</head>
+	<link rel="stylesheet" href="css_index/top.css">
+	<link rel="stylesheet" href="css_index/foot.css">
+	<link rel="stylesheet" href="css_index/body.css">
+	<link rel="stylesheet" href="css_index/body_2.css">
+	<link rel="stylesheet" href="css_index/body_3_1.css">
+	<link rel="stylesheet" href="css_index/body_3_2.css">
+	<script type="text/javascript" src="js/onclick.js"></script>
+	<body>
+		<!-- 最顶端的导航栏 -->
+		<div class="top">
+			<div class="nav_1">
+				<ul>
+					<li><a href="#">小米商城</a></li>
+					<li><a href="#">MIUI</a></li>
+					<li><a href="#">云服务</a></li>
+					<li><a href="#">金融</a></li>
+					<li><a href="#">有品</a></li>
+					<li><a href="#">小爱开放平台</a></li>
+					<li><a href="#">企业团购</a></li>
+					<li><a href="#">资质证照</a></li>
+					<li><a href="#">协议规则</a></li>
+					<li><a href="#">下载app</a></li>
+					<li><a href="#">Select Location</a></li>
+					<li id="car" onmouseover="CarOver()" onmouseout="CarOut()">购物车(0)</li>
+					<li class="nav_1_right"><a href="login.html">登录</a></li>
+					<li class="nav_1_right"><a href="register.html">注册</a></li>
+					<li class="nav_1_right"><a href="#">消息通知</a></li>
+				</ul>
+				<div id="incar" onmouseover="CarOver()" onmouseout="CarOut()">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
+			</div>
+		</div>
+		<!-- 右边的固定导航栏 -->
+		<img src="img/wechat.jpg" id="wechat" onmouseover="PicOver()" onmouseout="PicOut()">
+		<div class="nav_right">
+			<ul>
+				<li><a href="#">回到顶部</a></li>
+				<li><a href="#">售后服务</a></li>
+				<li><a href="#" onmouseover="PicOver()" onmouseout="PicOut()" id="pop">人工客服</a></li>
+				<li><a href="#">购物车</a></li>
+			</ul>
+		</div>
+		<!-- 上面的第二排导航栏 -->
+		<div class="nav_2">
+			<div class="nav_2_img">
+				<a href="#"></a>
+			</div>
+			<ul>
+				<li><a href="#">小米手机</a></li>
+				<li><a href="#">Redmi红米</a></li>
+				<li><a href="#">电视</a></li>
+				<li><a href="#">笔记本</a></li>
+				<li><a href="#">家电</a></li>
+				<li><a href="#">路由器</a></li>
+				<li><a href="#">智能硬件</a></li>
+				<li><a href="#">服务</a></li>
+				<li><a href="#">社区</a></li>
+				<li class="nav_2_right">
+					<form action="#" method="get">
+						<input type="text" class="text_1"><input type="image" src="img/th.jpg" class="btn_1" onclick="funA()">
+					</form>
+				</li>
+			</ul>
+		</div>
+		<a href="alpha.html" class="alpha"></a>
+		<!-- 身体部分 -->
+		<div class="body">
+			<!-- 左边的导航栏 -->
+			<div class="left">
+				<ul>
+					<li><a href="#">手机 电话卡</a></li>
+					<li><a href="#">电视 盒子</a></li>
+					<li><a href="#">笔记本 显示器 平板</a></li>
+					<li><a href="#">家电 插线板</a></li>
+					<li><a href="#">出行 穿戴</a></li>
+					<li><a href="#">智能 路由器</a></li>
+					<li><a href="#">电源 配件</a></li>
+					<li><a href="#">健康 儿童</a></li>
+					<li><a href="#">耳机 音箱</a></li>
+					<li><a href="#">生活 箱包</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 第二部分 -->
+		<div class="body_2">
+			<!-- 左边的导航栏 -->
+			<div class="body_2_nav">
+				<ul>
+					<li><a href="#"><font size="5">⚡</font><br>小米秒杀</a></li>
+					<li><a href="#"><font size="5">🏠</font><br>企业团购</a></li>
+					<li><a href="#"><font size="5">🛩</font><br>F码通道</a></li>
+					<li><a href="#"><font size="5">📞</font><br>米粉卡</a></li>
+					<li><a href="#"><font size="5">💵</font><br>以旧换新</a></li>
+					<li><a href="#"><font size="5">☎</font><br>话费充值</a></li>
+				</ul>
+			</div>
+			<!-- 右边的图片 -->
+			<div class="body_2_img">
+				<img src="img/3.jpg" class="img_1">
+				<img src="img/4.jpg" class="img_2">
+				<img src="img/5.jpg" class="img_3">
+			</div>
+		</div>
+		<!-- 第三部分 -->
+		<div class="body_3">
+			<div class="body_3_1">
+				<p>小米闪购</p>
+				<ul>
+					<li>
+						<br><p align="center">14:00场</p><br>
+						<img src="img/8.gif">
+					</li>
+					<li>
+						<img src="img/7.jpg">
+						<span id="p1">Redmi充电宝 20000mAh 白色</span><br>
+						<span id="p2">大容量，可上飞机</span><br><br>
+						<span id="p3">49.50元</span> <del>99元</del>
+					</li>
+					<li>
+						<img src="img/9.png">
+						<span id="p1">7号彩虹电池（10粒装)</span><br>
+						<span id="p2">无汞无镉 环保电池</span><br><br>
+						<span id="p3">1.00元</span> <del>9.9元</del>
+					</li>
+					<li>
+						<img src="img/10.jpg">
+						<span id="p1">小米路由器4A千兆版</span><br>
+						<span id="p2">双核全千兆AC1200路由器</span><br><br>
+						<span id="p3">129.00元</span> <del>169元</del>
+					</li>
+					<li>
+						<img src="img/11.jpg">
+						<span id="p1">米家压力IH电饭煲</span><br>
+						<span id="p2">智能烹饪</span><br><br>
+						<span id="p3">798.00元</span> <del>999元</del>
+					</li>
+				</ul>
+			</div>
+			<div class="body_3_2">
+				<p>手机</p>
+				<a href="alpha.html">
+				<img src="img/12.jpg" height="615px" class="pic">
+				</a>
+				<ul>
+					<li>
+						<img src="img/16.jpg"><br><br>
+						<span id="p1">Redmi 8A</span><br>
+						<span id="p2">5000mAh超长续航</span><br><br>
+						<span id="p3">699元</span>
+					</li>
+					<li>
+						<img src="img/15.jpg"><br><br>
+						<span id="p1">Redmi 8</span><br>
+						<span id="p2">5000mAh超长续航</span><br><br>
+						<span id="p3">749元</span> <del>799元</del>
+					</li>
+					<li>
+						<img src="img/14.jpg"><br><br>
+						<span id="p1">小米9 Pro 5G</span><br>
+						<span id="p2">5G双卡全网通，骁龙855Plus</span><br><br>
+						<span id="p3">3699元起</span>
+					</li>
+					<li>
+						<img src="img/13.jpg"><br><br>
+						<span id="p1">小米CC9 Pro</span><br>
+						<span id="p2">1亿像素 五摄四闪</span><br><br>
+						<span id="p3">2799元起</span>
+					</li>
+				</ul>
+				<ul class="ul2">
+					<li>
+						<img src="img/20.jpg"><br><br>
+						<span id="p1">Redmi 7</span><br>
+						<span id="p2">4000mAh超长续航</span><br><br>
+						<span id="p3">899元</span> <del>999元</del>
+					</li>
+					<li>
+						<img src="img/19.jpg"><br><br>
+						<span id="p1">Redmi K20 Pro 尊享版本</span><br>
+						<span id="p2">骁龙855Plus，弹出全面屏</span><br><br>
+						<span id="p3">2399元起</span> <del>2699元</del>
+					</li>
+					<li>
+						<img src="img/18.jpg"><br><br>
+						<span id="p1">Redmi Note 8</span><br>
+						<span id="p2">千元4800万四摄</span><br><br>
+						<span id="p3">999元起</span>
+					</li>
+					<li>
+						<img src="img/17.jpg"><br><br>
+						<span id="p1">Redmi Note 8 Pro</span><br>
+						<span id="p2">6400万全场景四摄</span><br><br>
+						<span id="p3">1299元起</span> <del>1399元</del>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<div class="foot">
+			<ul>
+				<li><a href="#">👌预约维修服务</a></li>丨
+				<li><a href="#">🛄7天无理由退货</a></li>丨
+				<li><a href="#">✅15天免费换货</a></li>丨
+				<li><a href="#">🚛满150元包邮</a></li>丨
+				<li><a href="#">👩520余家售后网点</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,214 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.top{													//第一栏
+			width: 100%;
+			height: 40px;
+			background-color:#2E2E2E;
+		}
+		.nav_1{													//第一栏内容
+			width: 1200px;
+			height: 40px;
+			margin: auto;
+		}
+		.nav_1 a{
+			display: block;
+			text-decoration: none;
+			color: #B0B0B0;
+			height: 40px;
+		}
+		.nav_1 a:hover{											
+			color: #FFF;
+		}
+		.nav_1 li{
+			list-style: none;
+			display: inline-block;
+			margin-left: 20px;
+			line-height: 40px;
+			font-size: 12px;
+		}
+		.nav_1_right{
+			float:right;
+		}
+		.nav_1 ul{
+			width: 1200px;
+			margin: auto;
+		}
+		.nav_2{
+			width: 1200px;
+			height: 100px;
+			margin: auto;
+			margin-top: 20px;
+		}
+		.nav_2 li{
+			display: inline-block;
+			height: 100px;
+			line-height: 100px;
+			font-size: 18px;
+			list-style: none;
+			margin-left: 10px;
+		}
+		.nav_2 a{
+			display: inline-block;
+			text-decoration: none;
+			color: #333333;
+		}
+		.nav_2 ul{
+			width: 1000px;
+			height: 100px;
+			margin: auto;
+			float: right;
+		}
+		.nav_2 ul a:hover{
+			color: orangered;
+		}
+		.nav_2_right{
+			float: right;
+		}
+		#car{
+			float: right;
+			background-color: #424242 ;
+			width: 120pX;
+			text-align: center;
+			color: #B0B0B0;
+			transition-duration: 200ms;
+		}
+		#car:hover{
+			background-color: #FFFFFF;	
+			color: #FF4500 ;
+			cursor: pointer;
+		}
+		#incar{
+			width: 280px;
+			height: 100px;
+			background-color: #FFFFFF;
+			box-shadow: 5px 5px 5px #E6E6E6;
+			position: absolute;
+			top: 40px;
+			right: 127px;
+			display: none;
+		}
+		#incar p{
+			font-size: 12px;
+			text-align: center;
+			line-height: 100px;
+		}
+		.text_1{
+			width: 245px;
+			height: 47px;
+			border:1px solid lightgray;
+			font-size: 18px;
+			text-indent: 1em;
+			outline: none;
+		}
+		.btn_1{
+			float: right;
+			margin-top: 26px;
+			height: 50px;
+			outline: none;
+		}
+		
+		.nav_2_img{
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+			position: relative;
+			top: 20px;
+			background-image: url(../img/1.png);
+			background-repeat: no-repeat;
+		}
+		.nav_2_img:hover{
+			background-image: url(../img/2.jpg);
+			background-color: orangered;
+			transition-delay: 100ms;					/* 延时反应 */
+			transition-duration: 500ms;			/* 过渡持续时间 */
+		}
+		.nav_2_img a{
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+		}
+		#wechat{
+			width: 150px;
+			height: 150px;
+			position: fixed;
+			top: 458px;
+			right: 75px;
+			z-index: 999;
+			box-shadow: 5px 5px 5px #848484;
+			display: none;
+		}
+		.nav_right{
+			position: fixed;
+			top: 400px;
+			right: 0;
+		}
+		.nav_right a{
+			text-decoration: none;
+			color: black;
+			display: block;
+			width: 75px;
+			height: 50px;
+			/* border: 1px solid #D3D3D3; */
+		}
+		.nav_right a:hover{
+			background-color: orangered;
+			color: #FFFFFF;
+			transition-duration: 300ms;			/* 过渡持续时间 */
+		}
+
+		
+		.nav_right li{
+			display: block;
+			text-align: center;
+			line-height: 50px;
+			width: 75px;
+			height: 50px;
+			list-style: none;
+		}
+		.nav_3{
+			width: 1200px;
+			height: 50px;
+			margin: auto;
+			margin-top: 20px;
+		}
+		.nav_3 p{
+			display: inline;
+			font-size: 20px;
+			font-family: 微软雅黑;
+		}
+		.nav_3 a{
+			font-size: 12px;
+			color: #616161;
+			text-decoration: none;
+		}
+		.nav_3 a:hover{
+			color: #FF6700;
+		}
+		.nav_3 li{
+			display: inline-block;
+			list-style: none;
+		}
+		.nav_3 .right{
+			float: right;
+		}
+		.nav_3 .right a{
+			font-size: 16px;
+		}
+		#mid{
+			width: 200px;
+		}
+		.nav_3 button{
+			width: 120px;
+			height: 30px;
+			background-color: #FF6700;
+			color: #FFFFFF;
+			outline: none;
+			border: 0;
+		}
+		.nav_3 button:hover{
+			background-color: #F25807;
+			cursor: pointer;
+		}
+		
